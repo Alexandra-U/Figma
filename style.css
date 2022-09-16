@@ -1278,16 +1278,22 @@ footer span {
 
 /* footer */
 
-.rectangle-5 img {
-    /* width: 100%; */
-    /* height: auto; */
+footer .foot{
+    position: absolute;
+    top: 4900px;
+    bottom: 0;
+    background:  #0E0E2C;;
+    width: 100vh;
+    height: 100vh;
+    clear: both;
 }
+
 
 footer h1 {
     position: absolute;
     width: 650px;
     z-index: 1;
-    left: 50%;
+    left: 30%;
     right: 12.85%;
     top: 5100px;
     bottom: 6.93%;
@@ -1306,12 +1312,11 @@ footer span {
 }
 
 #footer-section .mask {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
-    object-fit: cover;
     z-index: 1;
-    top: 5325px;
+    top: 550px;
     opacity: 0.5;    
 }
 
